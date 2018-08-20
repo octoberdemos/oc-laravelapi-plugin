@@ -1,3 +1,3 @@
 <?php
 
-Route::get('/welcome', 'Acme\LaravelApi\Http\Controllers\WelcomeController@index');
+Route::get('/welcome', 'Acme\LaravelApi\Http\Controllers\WelcomeController@index')->middleware('web');
